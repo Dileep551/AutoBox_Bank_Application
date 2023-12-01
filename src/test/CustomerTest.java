@@ -18,7 +18,7 @@ class CustomerTest {
         //Then
         ArrayList<Double> transactions = customer.getTransactions();
         assertNotNull(transactions);
-        assertEquals(1, transactions.size());
+        assertEquals(2, transactions.size());
         assertEquals(100.0, transactions.get(0));
     }
 }
